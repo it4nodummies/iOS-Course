@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D557FE31-9E15-4495-A335-DB78084862D2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOSMoveLabel</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5808D40B-A1E7-40BB-82FF-FE2D318F5300</key>
+		<string>https://github.com/it4nodummies/iOS-Course.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOSMoveLabel/iOSMoveLabel.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5808D40B-A1E7-40BB-82FF-FE2D318F5300</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/it4nodummies/iOS-Course.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5808D40B-A1E7-40BB-82FF-FE2D318F5300</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5808D40B-A1E7-40BB-82FF-FE2D318F5300</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS Course</string>
+		</dict>
+	</array>
+</dict>
+</plist>
