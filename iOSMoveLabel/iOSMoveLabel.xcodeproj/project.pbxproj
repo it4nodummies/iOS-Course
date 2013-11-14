@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC5ACA911834F394004A5906 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5ACA901834F394004A5906 /* SecondViewController.m */; };
 		CCEEAAF91833AE5C001FADFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEEAAF81833AE5C001FADFD /* Foundation.framework */; };
 		CCEEAAFB1833AE5C001FADFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEEAAFA1833AE5C001FADFD /* CoreGraphics.framework */; };
 		CCEEAAFD1833AE5C001FADFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEEAAFC1833AE5C001FADFD /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC5ACA8F1834F394004A5906 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CC5ACA901834F394004A5906 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		CCEEAAF51833AE5C001FADFD /* iOSMoveLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMoveLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEEAAF81833AE5C001FADFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCEEAAFA1833AE5C001FADFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +82,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC5ACA881834E363004A5906 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CCEEAB0D1833AE5C001FADFD /* ViewController.h */,
+				CCEEAB0E1833AE5C001FADFD /* ViewController.m */,
+				CC5ACA8F1834F394004A5906 /* SecondViewController.h */,
+				CC5ACA901834F394004A5906 /* SecondViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		CCEEAAEC1833AE5C001FADFD = {
 			isa = PBXGroup;
 			children = (
@@ -115,8 +129,7 @@
 				CCEEAB071833AE5C001FADFD /* AppDelegate.h */,
 				CCEEAB081833AE5C001FADFD /* AppDelegate.m */,
 				CCEEAB0A1833AE5C001FADFD /* Main.storyboard */,
-				CCEEAB0D1833AE5C001FADFD /* ViewController.h */,
-				CCEEAB0E1833AE5C001FADFD /* ViewController.m */,
+				CC5ACA881834E363004A5906 /* ViewController */,
 				CCEEAB101833AE5C001FADFD /* Images.xcassets */,
 				CCEEAAFF1833AE5C001FADFD /* Supporting Files */,
 			);
@@ -252,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5ACA911834F394004A5906 /* SecondViewController.m in Sources */,
 				CCEEAB0F1833AE5C001FADFD /* ViewController.m in Sources */,
 				CCEEAB091833AE5C001FADFD /* AppDelegate.m in Sources */,
 				CCEEAB051833AE5C001FADFD /* main.m in Sources */,
@@ -469,6 +483,7 @@
 				CCEEAB291833AE5C001FADFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCEEAB2A1833AE5C001FADFD /* Build configuration list for PBXNativeTarget "iOSMoveLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +492,7 @@
 				CCEEAB2C1833AE5C001FADFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

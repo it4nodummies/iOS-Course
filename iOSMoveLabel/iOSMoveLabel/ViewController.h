@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
+
+    // Definisce una macro per la chiave necessaria a NsUserDefault per il valore Alpha della label
+#define KEY_ALPHA_LABEL @"alpha label"
 
 @interface ViewController : UIViewController
 
