@@ -31,7 +31,9 @@
 }
 
 - (IBAction)sldChangeAlphaLabel:(UISlider *)sender {
+    // setta il valore dell'alpha della label lblAlpha al valore dello slider. Il valore dello slider può variare tra 0 e 1.
     [self.lblAlpha setAlpha:[sender value]];
+    //setta il valore della label lblAlphaValue al valore alpha della label lblAlpha.
     [self.lblAlphaValue setText:[NSString stringWithFormat:@"%.2f", [self.lblAlpha alpha]]];
     
 }
