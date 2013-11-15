@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#define KEY_MOVE_LABEL @"move label"
 
 @interface SecondViewController : UIViewController
 

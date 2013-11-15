@@ -12,6 +12,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblMove;
 @property (strong, nonatomic) NSArray *arOffset;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *sgmOffset;
+@property  int move;
 @end
 
 @implementation SecondViewController
@@ -29,12 +30,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    NSDictionary *offset0 = @{@"x": @(50), @"y": @(100)};
-    NSDictionary *offset1 = @{@"x": @(0), @"y": @(100)};
-    NSDictionary *offset2 = @{@"x": @(100), @"y": @(0)};
-    NSDictionary *offset3 = @{@"x": @(50), @"y": @(50)};
-    NSDictionary *offset4 = @{@"x": @(20), @"y": @(10)};
-    
+    NSDictionary *offset0 = @{@"x": @(-50), @"y": @(-50)};
+    NSDictionary *offset1 = @{@"x": @(100), @"y": @(0)};
+    NSDictionary *offset2 = @{@"x": @(0), @"y": @(100)};
+    NSDictionary *offset3 = @{@"x": @(-100), @"y": @(0)};
+    NSDictionary *offset4 = @{@"x": @(50), @"y": @(-50)};
+
     _arOffset = @[offset0, offset1, offset2, offset3, offset4];
     [_sgmOffset setHidden:YES];
     
@@ -48,6 +49,16 @@
 
 - (IBAction)btnMoveLabel:(UIButton *)sender {
     
+    if (_move > 4 || _move < 1) {
+      _move = 0;
+    }
+    NSDictionary *dctOffset = [self.arOffset objectAtIndex:_move];
+    int xOffset = [[dctOffset valueForKey:@"x"] integerValue];
+    int yOffset = [[dctOffset valueForKey:@"y"] integerValue];
+    [UIView transitionWithView:self.view duration:1.0 options:UIViewAnimationOptionAllowAnimatedContent animations:^{
+        [self.lblMove setFrame:CGRectOffset(self.lblMove.frame, xOffset, yOffset)];
+            } completion:nil];
+    _move++;
     
     
 }
