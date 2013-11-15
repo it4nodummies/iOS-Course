@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>8D6CEF43-11F0-4DE2-BAA4-643B7DB948D5</string>
+	<string>B0965076-46ED-4ED9-8DD8-B5D886A9F5F2</string>
 	<key>IDESourceControlProjectName</key>
-	<string>iOSMoveLabel</string>
+	<string>iOSContacts</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>5808D40B-A1E7-40BB-82FF-FE2D318F5300</key>
 		<string>https://github.com/it4nodummies/iOS-Course.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOSMoveLabel/iOSMoveLabel.xcodeproj/project.xcworkspace</string>
+	<string>iOSContacts/iOSContacts.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5808D40B-A1E7-40BB-82FF-FE2D318F5300</key>

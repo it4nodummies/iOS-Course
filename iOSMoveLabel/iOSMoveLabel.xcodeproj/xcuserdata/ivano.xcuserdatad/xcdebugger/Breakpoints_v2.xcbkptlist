@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iOSMoveLabel/SecondViewController.m"
-            timestampString = "406218305.545021"
+            timestampString = "406228023.219748"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "-btnMoveLabel:"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "-sgmControl:"
             landmarkType = "5">
             <Locations>
                <Location
