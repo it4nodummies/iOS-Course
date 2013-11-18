@@ -14,13 +14,14 @@
 		CC73178918367BA5007B6149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC73178818367BA5007B6149 /* main.m */; };
 		CC73178D18367BA5007B6149 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC73178C18367BA5007B6149 /* AppDelegate.m */; };
 		CC73179018367BA5007B6149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC73178E18367BA5007B6149 /* Main.storyboard */; };
-		CC73179318367BA5007B6149 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC73179218367BA5007B6149 /* ViewController.m */; };
 		CC73179518367BA5007B6149 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC73179418367BA5007B6149 /* Images.xcassets */; };
 		CC73179C18367BA5007B6149 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC73179B18367BA5007B6149 /* XCTest.framework */; };
 		CC73179D18367BA5007B6149 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC73177C18367BA4007B6149 /* Foundation.framework */; };
 		CC73179E18367BA5007B6149 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC73178018367BA4007B6149 /* UIKit.framework */; };
 		CC7317A618367BA5007B6149 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC7317A418367BA5007B6149 /* InfoPlist.strings */; };
 		CC7317A818367BA5007B6149 /* iOSContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7317A718367BA5007B6149 /* iOSContactsTests.m */; };
+		CC85F5F5183A15050070E127 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85F5F4183A15050070E127 /* TableViewController.m */; };
+		CC85F5F9183A18B40070E127 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85F5F8183A18B40070E127 /* AddContactViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		CC73178B18367BA5007B6149 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC73178C18367BA5007B6149 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CC73178F18367BA5007B6149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CC73179118367BA5007B6149 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CC73179218367BA5007B6149 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CC73179418367BA5007B6149 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CC73179A18367BA5007B6149 /* iOSContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC73179B18367BA5007B6149 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CC7317A318367BA5007B6149 /* iOSContactsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSContactsTests-Info.plist"; sourceTree = "<group>"; };
 		CC7317A518367BA5007B6149 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC7317A718367BA5007B6149 /* iOSContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSContactsTests.m; sourceTree = "<group>"; };
+		CC85F5F3183A15050070E127 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		CC85F5F4183A15050070E127 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		CC85F5F7183A18B40070E127 /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		CC85F5F8183A18B40070E127 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +118,8 @@
 				CC73178B18367BA5007B6149 /* AppDelegate.h */,
 				CC73178C18367BA5007B6149 /* AppDelegate.m */,
 				CC73178E18367BA5007B6149 /* Main.storyboard */,
-				CC73179118367BA5007B6149 /* ViewController.h */,
-				CC73179218367BA5007B6149 /* ViewController.m */,
 				CC73179418367BA5007B6149 /* Images.xcassets */,
+				CC85F5F6183A150E0070E127 /* ViewController */,
 				CC73178318367BA4007B6149 /* Supporting Files */,
 			);
 			path = iOSContacts;
@@ -150,6 +152,17 @@
 				CC7317A418367BA5007B6149 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC85F5F6183A150E0070E127 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC85F5F3183A15050070E127 /* TableViewController.h */,
+				CC85F5F4183A15050070E127 /* TableViewController.m */,
+				CC85F5F7183A18B40070E127 /* AddContactViewController.h */,
+				CC85F5F8183A18B40070E127 /* AddContactViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC73179318367BA5007B6149 /* ViewController.m in Sources */,
 				CC73178D18367BA5007B6149 /* AppDelegate.m in Sources */,
+				CC85F5F9183A18B40070E127 /* AddContactViewController.m in Sources */,
 				CC73178918367BA5007B6149 /* main.m in Sources */,
+				CC85F5F5183A15050070E127 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +474,7 @@
 				CC7317AD18367BA5007B6149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC7317AE18367BA5007B6149 /* Build configuration list for PBXNativeTarget "iOSContactsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +483,7 @@
 				CC7317B018367BA5007B6149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
